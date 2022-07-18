@@ -24,19 +24,29 @@ h3{
 footer .p{
     display: flex;
     height: 100px;
-    justify-content: center;
-    background-color: #d3d3d3;
     text-align: center;
-}
-footer .ig{
-    display: flex;
-    height: 20px;
     justify-content: center;
-    background-color: #d3d3d3;
 }
-footer .linkedin{
+
+.ig {
+    display: inline-block;
+    position: relative;
+    left: 300px;
+    top: 5px;
+    
+} 
+    
+.linkedin {
+    display: inline-block;
+    position: relative;
+    left: 305px;
+    top: 5px;
+} 
+
+footer{
     display: flex;
-    height: 20px;
-    justify-content: center;
-    background-color: #d3d3d3;
+    height: 40px;
+    justify-items: center;
+    background-color: #005677;
+    text-align: center;
 }
