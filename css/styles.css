@@ -29,16 +29,18 @@ footer .p{
 }
 
 .ig {
-    display: inline-block;
+    display: flex;
     position: relative;
+    text-align: center;
     left: 790px;
     top: 5px;
     
 } 
     
 .linkedin {
-    display: inline-block;
+    display: flex;
     position: relative;
+    text-align: center;
     left: 795px;
     top: 5px;
 } 
